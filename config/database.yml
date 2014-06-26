@@ -37,7 +37,7 @@ development:
 
 test:
   adapter: postgresql
-  database: cycling-service-test
+  database: cycling_service_test
   username: postgres
 
 
