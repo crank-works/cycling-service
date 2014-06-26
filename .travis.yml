@@ -1,5 +1,5 @@
 before_script:
-  - psql -c 'create database cycling-service-test;' -U cyclingservices
+  - psql -c 'create database cycling-service-test;' -U postgres
 
 language: ruby
 rvm:

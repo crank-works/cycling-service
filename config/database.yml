@@ -41,8 +41,8 @@ test: &TEST
   encoding: utf8
   database: cycling-service-test
   pool: 5
-  username: cyclingservices
-  password: password
+  username: postgres
+#  password: password
 
 production:
   host: localhost
