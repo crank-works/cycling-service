@@ -39,7 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
-gem 'strong_parameters'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.1'
