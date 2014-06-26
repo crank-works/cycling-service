@@ -35,14 +35,17 @@ development:
   username: cyclingservices
   password: password
 
-test: &TEST
-  host: localhost
+test:
   adapter: postgresql
-  encoding: utf8
   database: cycling-service-test
-  pool: 5
   username: postgres
+
+
+#  host: localhost
+#  encoding: utf8
+#  pool: 5
 #  password: password
+
 
 production:
   host: localhost
