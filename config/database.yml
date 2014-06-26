@@ -40,7 +40,6 @@ test:
   database: cycling_service_test
   username: postgres
 
-
 #  host: localhost
 #  encoding: utf8
 #  pool: 5
@@ -48,10 +47,9 @@ test:
 
 
 production:
-  host: localhost
   adapter: postgresql
   encoding: utf8
-  database: cycling-service-production
+  database: cycling_service_production
   pool: 5
-  username: cyclingservices
-  password: password
+
+#  host: localhost
