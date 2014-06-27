@@ -37,6 +37,7 @@ development:
 
 test:
   adapter: postgresql
+  encoding: utf8
   database: cycling_service_test
   username: postgres
 
