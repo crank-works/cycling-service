@@ -16,7 +16,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 require 'database_cleaner'
-
+require 'factory_girl'
 
 
 RSpec.configure do |config|
@@ -80,6 +80,8 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 =end
+  config.include FactoryGirl::Syntax::Methods
+
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction
     DatabaseCleaner.clean_with(:truncation)
