@@ -1,8 +1,10 @@
-== Build
+== Build Information
 
-https://travis-ci.org/
+[Semaphore](https://semaphoreapp.com/marcusrugger/cycling-service)
 
-https://dashboard-next.heroku.com/apps/cycling-service/resources
+[Heroku](https://dashboard-next.heroku.com/apps/cycling-service/resources)
+
+[Cycling Service](http://cycling-service.herokuapp.com/)
 
 
 == README
