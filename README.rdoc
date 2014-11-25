@@ -1,12 +1,3 @@
-== Build Information
-
-[Semaphore](https://semaphoreapp.com/marcusrugger/cycling-service)
-
-[Heroku](https://dashboard-next.heroku.com/apps/cycling-service/resources)
-
-[Cycling Service](http://cycling-service.herokuapp.com/)
-
-
 == README
 
 This README would normally document whatever steps are necessary to get the
